@@ -1,0 +1,98 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.index {
+
+    background-image: url('view-anatomic-heart-model-educational-purpose-with-stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+
+}
+
+.result {
+
+    background-image: url('view-anatomic-heart-model-educational-purpose-with-stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px 50px auto;
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: start;
+    gap: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10PX;
+    gap: 6px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #8c1f1f;
+    outline: hidden;
+}
+
+h1 {
+    color: black;
+    text-align: justify;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+input[type=text],
+input[type=number] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    background-color: #ff6293;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ffacc1;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #ff6293;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffacc1;
+}
